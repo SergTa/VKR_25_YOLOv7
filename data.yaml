@@ -1,0 +1,9 @@
+# data.yaml
+path: data
+train: yolo_dataset/images
+val: yolo_dataset/images
+
+nc: 8  # количество классов  (замените это на количество ваших классов - 1) 
+
+#имена классов
+names: ['trailer', 'animal', 'train', 'bus', 'truck', 'person', 'bicycle', 'motorcycle', 'car']  

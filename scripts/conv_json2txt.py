@@ -40,4 +40,4 @@ def convert_json_to_yolo(json_file, images_dir, output_dir):
     print("Конвертация завершена")
 
 # Пример использования
-convert_json_to_yolo('./data/annotations/instances_default.json', './data/images/', './yolov5/yolo_dataset/')
+convert_json_to_yolo('./data/annotations/instances_default.json', './data/images/', './yolov7/yolo_dataset/')

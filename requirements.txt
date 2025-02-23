@@ -2,3 +2,4 @@ torch
 pyyaml
 pandas
 requests
+ultralytics

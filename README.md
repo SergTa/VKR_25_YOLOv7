@@ -8,8 +8,10 @@
     python3 -m venv venv
     source ./venv/bin/activate
     pip install opencv-python matplotlib
+    pip install -r requirements.txt
 ```
 
+Необязательно: 
 Клонируйте репозиторий YOLOv5:
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
@@ -28,22 +30,24 @@ git clone https://github.com/WongKinYiu/yolov7.git
 Реорганизуйте данные, чтобы они соответствовали формату YOLO. Для этого вам нужно будет конвертировать аннотации из JSON в формат YOLO (txt файлы).
 
 ``` bash
-    python3 ./scripts/conv_json2txt.py
+    python3 ./scripts/conver.py
 ```
 
-Автоматическое разделение на тренировочную и валидационную выборки 80/20
-
-``` bash
-    python ./scripts/split.py
-```
-Шаг 2: Обучение модели YOLOv5
+Шаг 2: Обучение модели YOLO
 
 Файл конфигурации data.yaml
 
 Для запуска обучения используйте следующий скрипт:
 
 ```bash
-    !python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt --cache
+    python3 ./train_yolo.ipynb
 ```
 
-запустите main.py
+Шаг 3: Инференс
+
+Для запуска Инференса используйте следующий скрипт
+
+```bash
+    python3 ./inference.ipynb
+```
+

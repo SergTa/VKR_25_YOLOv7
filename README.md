@@ -45,9 +45,9 @@ git clone https://github.com/WongKinYiu/yolov7.git
 
 Шаг 3: Инференс
 
-Для запуска Инференса используйте следующий скрипт
+Для запуска Инференса и соханения видеофайла используйте следующий скрипт
 
 ```bash
-    python3 ./inference.ipynb
+    python3 ./infer.py
 ```
 

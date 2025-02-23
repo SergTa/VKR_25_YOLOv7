@@ -31,6 +31,11 @@ git clone https://github.com/WongKinYiu/yolov7.git
     python3 ./scripts/conv_json2txt.py
 ```
 
+Автоматическое разделение на тренировочную и валидационную выборки 80/20
+
+``` bash
+    python ./scripts/split.py
+```
 Шаг 2: Обучение модели YOLOv5
 
 Файл конфигурации data.yaml

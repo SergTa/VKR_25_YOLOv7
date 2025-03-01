@@ -3,3 +3,4 @@ pyyaml
 pandas
 requests
 ultralytics
+dvc[yandex]

@@ -47,6 +47,6 @@ def process_video_with_tracking(model, input_video_path, output_video_path):
 if __name__ == "__main__":
     model = YOLO('runs/detect/train3/weights/best.pt')  # Замените на путь к вашей модели
     input_video_path = "data/VID-20250129-WA0013.mp4"  # Путь к вашему видеофайлу
-    output_video_path = "output_video.mp4"  # Путь для сохранения выходного видео
+    output_video_path = "data/output_video.mp4"  # Путь для сохранения выходного видео
 
     process_video_with_tracking(model, input_video_path, output_video_path)

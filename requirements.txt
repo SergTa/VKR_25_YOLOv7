@@ -3,4 +3,5 @@ pyyaml
 pandas
 requests
 ultralytics
-dvc[yandex]
+dvc
+dvc-ssh

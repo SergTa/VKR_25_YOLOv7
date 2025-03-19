@@ -11,21 +11,6 @@
     pip install -r requirements.txt
 ```
 
-Необязательно: 
-Клонируйте репозиторий YOLOv5:
-```bash
-git clone https://github.com/ultralytics/yolov5.git
-   cd yolov5
-   pip install -r requirements.txt
-```
-Клонируйте репозиторий YOLOv5:
-```bash
-git clone https://github.com/WongKinYiu/yolov7.git
-    cd yolov7
-    pip install -r requirements.txt
-```
-
-
 Шаг 1: Подготовка данных
 Реорганизуйте данные, чтобы они соответствовали формату YOLO. Для этого вам нужно будет конвертировать аннотации из JSON в формат YOLO (txt файлы).
 
